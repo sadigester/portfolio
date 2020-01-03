@@ -11,4 +11,10 @@ html, body, * {
       -ms-flex-pack: center;
           justify-content: center;
 }
+
+#container .content {
+  width: 90vw;
+  height: 100vh;
+  background-color: #e4e4e4;
+}
 /*# sourceMappingURL=styles.css.map */

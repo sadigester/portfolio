@@ -8,4 +8,10 @@ html, body, * {
 #container {
 	display: flex;
 	justify-content: center;
+
+	.content {
+		width: 90vw;
+		height: 100vh;
+		background-color: #e4e4e4;
+	}
 }
