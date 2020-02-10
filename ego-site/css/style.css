@@ -1,0 +1,88 @@
+body {
+  color:#D7B15B;
+  background-color: #130303;
+}
+
+h2, h3, h4 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: .2em;
+}
+
+.brand-logo>img {
+  height: 26px
+}
+
+nav ul a,
+nav .brand-logo {
+  color:#D7B15B;
+}
+
+p {
+  line-height: 2rem;
+  color: #D7B15B;
+}
+
+.sidenav-trigger {
+  color: #D7B15B;
+}
+
+.parallax-container {
+  min-height: 500px;
+  line-height: 0;
+  height: auto;
+  background-color: rgba(0,0,0,.4);
+  background: rgb(1,0,17);
+  background: linear-gradient(180deg, rgba(1,0,17,.7) 10%, rgba(255,188,0,.1) 100%);
+  color:#D7B15B;
+  text-shadow: 2px 2px 2px black;
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+
+.bg_black {
+  width: 100%;
+  max-width: 100%;
+  background-color: #130303;
+}
+
+.gold-text {
+  color: #FBD233;
+}
+
+.footer-ego, .footer-ego ul li a {
+  background-color: #eeeeee;
+  color: #1b1b1b;
+}
+
+.footer-copyright {
+  text-transform: capitalize;
+}
